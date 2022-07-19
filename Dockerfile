@@ -1,4 +1,4 @@
-FROM centos
+FROM ubuntu
 RUN yum -y install epel-release
 RUN yum -y update
 RUN yum -y install nginx
